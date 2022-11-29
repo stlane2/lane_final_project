@@ -1,0 +1,274 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+header {
+    height: 156px;
+    background-color: rgb(150, 59, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: rgb(150, 59, 241) linear-gradient(to top, transparent, rgb(236, 65, 0))
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Creepster', cursive;
+}
+
+
+nav a {
+    display: inline-block;
+    background-color: rgb(236, 65, 0);
+    padding: 30px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    transition: .5s;
+}
+
+nav a:hover {
+    background-color: rgb(52, 15, 0);
+    color: rgb(255, 200, 0);
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+}
+
+body nav {
+    border-width: 10px;
+    border-color: red;
+}
+
+nav {
+    padding: 30px;
+    background-color: rgb(150, 59, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.link_holder {
+    width: 33%;
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 85pt;
+    text-align: left;
+    color: orange;
+}
+
+h3 {
+    font-size: 40pt;
+    padding-bottom: 20px;
+}
+
+.photo {
+    height: 150px;
+    margin: 10px;
+    width: 150px;
+    background-size: cover;
+    background-image: url("./steve\ assets/pumpkin steve.png");
+    transition: .5s;
+}
+
+.photo:hover {
+    height: 150px;
+    margin: 10px;
+    width: 150px;
+    background-image: url("./steve\ assets/pumpkin lit steve.png");
+}
+
+h2 {
+    width: 100%;
+}
+
+section {
+    display: flex;
+
+}
+
+.step_holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.step {
+    display: flex;
+    /* padding: 10px; */
+
+}
+
+.step_text,
+.step_image {
+    width: 50%;
+    padding: 20px;
+    background: black linear-gradient(to top, transparent, rgb(150, 59, 241))
+}
+
+.step_holder img {
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+    border-radius: 6px;
+}
+
+.contest_image_holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black linear-gradient(to top, transparent, rgb(150, 59, 241))
+}
+
+.contest_images {
+    display: flex;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+    border-radius: 6px;
+
+}
+
+.contest_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(150, 59, 241);
+    padding: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background: black linear-gradient(to top, transparent, rgb(150, 59, 241));
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Averia Serif Libre', cursive;
+
+}
+
+.form_holder {
+    width: 100%;
+}
+
+.form_row {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.label_holder {
+    width: 50%;
+}
+
+.input_holder {
+    width: 50%;
+}
+
+#my-state {
+    padding: 0px 14px;
+    background-color: rgb(236, 65, 0);
+    color: white;
+    transition: .5s;
+}
+
+#my-state:focus {
+    background-color: rgb(52, 15, 0);
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+    outline-color: #FFC800;
+}
+
+#my-state:hover {
+    background-color: rgb(52, 15, 0);
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input {
+    display: block;
+    margin: auto;
+    background-color: rgb(236, 65, 0);
+    color: white;
+    transition: .5s;
+}
+
+input:focus {
+    background-color: rgb(52, 15, 0);
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+    outline-color: #FFC800;
+}
+
+input:hover {
+    background-color: rgb(52, 15, 0);
+    border: 2px solid #FFC800;
+    box-shadow: 0px 0px 10px #FFC800;
+}
+
+#my-submit {
+    background-color: rgb(236, 65, 0);
+    padding: 30px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15pt;
+    text-decoration: none;
+    transition: .5s;
+    font-family: 'Creepster', cursive;
+}
+
+#my-submit:hover {
+    background-color: rgb(52, 15, 0);
+    color: rgb(255, 200, 0);
+}
+
+footer {
+    height: 156px;
+    background-color: rgb(150, 59, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15pt;
+    background: rgb(150, 59, 241) linear-gradient(to top, transparent, rgb(236, 65, 0))
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.image_container {
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
